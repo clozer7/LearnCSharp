@@ -8,7 +8,7 @@ namespace FileTest
         {
             Tools.Calculate.Add(1.5, 2.5);
             // 指定要读取的txt文件的路径
-            string filePath = "C:\\Users\\mingz\\Desktop\\qwe.txt";
+            string filePath = "你当前文本的路径";
 
             // 检查文件是否存在
             if (!File.Exists(filePath))
